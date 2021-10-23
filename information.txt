@@ -1,0 +1,40 @@
+=> 23/10/2021
+
+Angular 12 + Node.js Express + MySQL example: CRUD Application
+
+Link: https://www.bezkoder.com/angular-12-node-js-express-mysql/
+----
+
+con Version 10 -
+https://www.bezkoder.com/angular-10-node-js-express-mysql/
+
+--------------------
+ The back-end server uses Node.js + Express for REST APIs
+
+Continua la parte le backend Nodej y mysql:
+https://www.bezkoder.com/node-js-express-sequelize-mysql/
+
+Paginacion:
+https://www.bezkoder.com/node-js-sequelize-pagination-mysql/
+
+--------------------
+$ mkdir nodejs-express-sequelize-mysql
+$ cd nodejs-express-sequelize-mysql
+
+> npm init -y
+> npm install express sequelize mysql2 cors --save
+
+
+--------------------
+Get / Post
+http://localhost:8080/api/tutorials
+
+{
+    "title": "Tester 2",
+    "description": "This all the Apis above."
+}
+
+--------------------
+
+
+--------------------
